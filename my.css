@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rampart One', cursive;
+}
+.bg{
+    width:100%;
+    height:100vh;
+    background: url(blur-1569529__340.webp);
+    position: fixed;
+    background-size: cover;
+    z-index:-1;
+    overflow: none;
+}
+.word{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(255, 6, 81);
+    text-decoration: solid;
+}
+.v1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 0.1%;
+}
+
+/* media queries:Responsive */
+@media (min-width:320px){
+    .v1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 5%;
+    }
+    .word{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 5%;
+        color: rgb(249, 164, 235);
+    }
+}
